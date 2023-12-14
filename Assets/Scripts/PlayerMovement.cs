@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
         }
-
     }
 
     bool IsGrounded()
