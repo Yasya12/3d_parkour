@@ -9,9 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5041786195296651136}
+  - component: {fileID: 4999880747831896484}
   - component: {fileID: 8321509179615056515}
   - component: {fileID: 8343172539418211014}
   - component: {fileID: 6594364274173738279}
+  - component: {fileID: 8180847354648310144}
   m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
@@ -34,6 +36,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4999880747831896484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5095316504903037287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd9f8d34e0f4644e9c5df9efdfaaf17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  speed: 1
 --- !u!33 &8321509179615056515
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -105,3 +121,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8180847354648310144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5095316504903037287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2cb23dad28cbe40ba7e2f8afba078b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
